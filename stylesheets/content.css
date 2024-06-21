@@ -1,0 +1,27 @@
+*{ box-sizing: border-box;}
+
+@font-face {
+font-family: "CarlaSansLight";
+src: url("../fonts/CarlaSansLight.ttf") format("truetype");
+font-style: Light;
+font-weight: Light;
+}
+
+p{ font-family: 'CarlaSansLight'; }
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.move_block {
+    width: 90%;
+    height: 90%;
+    background-color: #ddd;
+    position: relative;
+    overflow: hidden;
+}
